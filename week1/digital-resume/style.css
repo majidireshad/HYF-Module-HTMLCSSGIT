@@ -4,7 +4,7 @@ html {
   font-family: "Baloo Tammudu 2", cursive;
 }
 body {
-  background-image: url(background2.jpg);
+  background-image: url(https://res.cloudinary.com/dq2ki7aym/image/upload/v1623104201/Digital%20Resume/Background2_rsiikk.jpg);
 }
 .personal {
   background-color: white;
@@ -15,7 +15,7 @@ body {
 }
 .photo {
   width: 23%;
-  background-image: url(https://majidireshad.github.io/HYF-Module-HTMLCSSGIT/week1/digital-resume/i);
+  background-image: url(https://res.cloudinary.com/dq2ki7aym/image/upload/v1623104201/Digital%20Resume/photo_hbvqg6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 200px;
@@ -167,7 +167,7 @@ header {
   background-color: gray;
 }
 .portfolio {
-  background-image: url(MainBanner.jpg);
+  background-image: url(https://res.cloudinary.com/dq2ki7aym/image/upload/v1623104202/Digital%20Resume/MainBanner_f6ibsk.jpg);
   width: 100%;
   background-size: cover;
   height: 500px;
