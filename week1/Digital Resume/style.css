@@ -1,0 +1,188 @@
+html {
+  box-sizing: border-box;
+  padding: 50px;
+  font-family: "Baloo Tammudu 2", cursive;
+}
+body {
+  background-image: url(background2.jpg);
+}
+.personal {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 200px;
+}
+.photo {
+  width: 23%;
+  background-image: url(photo.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  line-height: 1.5em;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  padding-left: 20px;
+  background-color: teal;
+  color: white;
+  justify-content: center;
+  align-items: left;
+}
+
+.info {
+  background-color: rgb(218, 218, 218);
+  color: black;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info img {
+  width: 20px;
+  height: 20px;
+}
+.info li {
+  list-style: none;
+}
+
+.info li a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+}
+.header-style {
+  width: 31.2%;
+  background-image: url(https://images.unsplash.com/photo-1447600514716-ca6f3974c346?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  height: 153px;
+}
+header span {
+  font-weight: 400;
+}
+.work {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  width: 25%;
+}
+.title {
+  width: 50%;
+}
+.experience {
+  background-color: white;
+  width: 70%;
+  padding: 30px 20px;
+}
+.skills-table {
+  background-image: url(https://images.unsplash.com/photo-1447600514716-ca6f3974c346?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  display: flex;
+
+  align-items: center;
+  width: 30%;
+}
+.skills-background {
+  background-color: black;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-bar {
+  width: 115.03px;
+  height: 10px;
+  background-color: gray;
+}
+.perfect {
+  width: 100px;
+  background-color: green;
+  height: 10px;
+}
+.high {
+  width: 80px;
+  background-color: rgb(130, 226, 5);
+  height: 10px;
+}
+.medium {
+  width: 50px;
+  background-color: rgb(226, 211, 5);
+  height: 10px;
+}
+th,
+td {
+  padding: 10px;
+}
+.education {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.education li,
+.experience li {
+  border-bottom: paleturquoise 1px solid;
+  list-style: none;
+  padding-top: 10px;
+}
+header {
+  background-color: whitesmoke;
+}
+.background {
+  padding-left: 20px;
+  background-color: white;
+  width: 70%;
+  padding: 20px 20px;
+}
+.language {
+  background-color: black;
+  color: white;
+  width: 30%;
+}
+.language-background {
+  background-color: black;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.language-bar {
+  width: 115.03px;
+  height: 10px;
+  background-color: gray;
+}
+.portfolio {
+  background-image: url(MainBanner.jpg);
+  width: 100%;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio h1 {
+  font-size: 3em;
+  color: lemonchiffon;
+}
+.portfolio a {
+  text-decoration: none;
+  transition: 1s;
+}
+.portfolio a:hover {
+  transform: scale(1.2);
+}
