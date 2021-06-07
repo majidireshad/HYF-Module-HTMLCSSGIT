@@ -57,6 +57,9 @@ p {
 .info li a {
   text-decoration: none;
 }
+.info-letters{
+  margin-left:1px;
+}
 header {
   display: flex;
   flex-direction: row;
