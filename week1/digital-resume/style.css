@@ -194,13 +194,16 @@ header {
   .education,
   .experience,
   .portfolio {
+    box-sizing: border-box;
     flex-direction: column;
   }
+  .header,
   .language,
   .background,
   .experience,
   .photo,
-  .skills-background {
+  .about,
+  .skills-table {
     width: 100%;
   }
   .header-style {
