@@ -190,13 +190,15 @@ header {
   transform: scale(1.2);
 }
 @media (max-width: 800px) {
+  html {
+    box-sizing: content-box;
+  }
   header,
   .education,
   .experience,
   .work,
   .portfolio,
   .personal {
-    box-sizing: border-box;
     flex-direction: column;
   }
   .header,
@@ -213,3 +215,4 @@ header {
     display: none;
   }
 }
+
