@@ -189,3 +189,21 @@ header {
 .portfolio a:hover {
   transform: scale(1.2);
 }
+@media (max-width: 800px) {
+  header,
+  .education,
+  .experience,
+  .portfolio {
+    flex-direction: column;
+  }
+  .language,
+  .background,
+  .experience,
+  .photo,
+  .skills-background {
+    width: 100%;
+  }
+  .header-style {
+    display: none;
+  }
+}
