@@ -193,7 +193,9 @@ header {
   header,
   .education,
   .experience,
-  .portfolio {
+  .work,
+  .portfolio,
+  .personal {
     box-sizing: border-box;
     flex-direction: column;
   }
@@ -203,6 +205,7 @@ header {
   .experience,
   .photo,
   .about,
+  .info,
   .skills-table {
     width: 100%;
   }
