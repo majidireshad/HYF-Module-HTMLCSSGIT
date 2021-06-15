@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+* {
+  font-family: "comfortaa";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://images.unsplash.com/photo-1437435409766-a478cc6da81a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80);
+  background-size: contain;
+}
+main h3 {
+  margin-top: 10px;
+}
+main p {
+  font-size: 0.8em;
+
+  padding-bottom: 20px;
+}
+main img {
+  margin-top: 20px;
+}
+header h1 {
+  color: wheat;
+  margin: 10px;
+  padding-left: 20px;
+}
+main h2 {
+  color: wheat;
+  margin: 10px;
+  padding-left: 20px;
+}
+
+.grid-floats {
+  display: table;
+  width: 100%;
+  position: relative;
+  left: 90px;
+}
+
+main .grid-floats .grid-item:hover,
+.grid-flex .grid-item:hover {
+  transition: all 500ms;
+  border: grey solid 1px;
+  box-shadow: 02px 04px 30px grey;
+  transform: scale(1.05);
+}
+
+.grid-floats .grid-item {
+  background-color: rgb(255, 255, 255);
+  color: rgb(11, 0, 20);
+  float: left;
+  width: calc(100% / 5);
+  margin: 10px;
+  padding: 10px;
+  height: 270px;
+}
+.grid-item {
+  border-radius: 10px;
+}
+.grid-floats .grid-item:first-child {
+  width: 41.2%;
+}
+
+.grid-floats img {
+  width: 35%;
+  margin-top: 20px;
+  position: relative;
+  left: 65px;
+}
+
+.grid-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.grid-flex .grid-item {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 5);
+  margin: 10px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.grid-item {
+  list-style: none;
+}
+
+.grid-flex img {
+  width: 25%;
+  margin: 10px;
+}
+.grid-flex .grid-item:first-child {
+  display: flex;
+  flex-grow: 0;
+}
+.grid-flex img:first-child {
+  width: 50%;
+}
+
+@media screen and (min-width: 300px) {
+  .grid-floats {
+    position: relative;
+    left: 0;
+  }
+  .grid-floats .grid-item {
+    width: 95%;
+  }
+  .grid-floats .grid-item:first-child {
+    width: 95%;
+  }
+  .grid-flex .grid-item {
+    width: 95%;
+  }
+  .grid-flex .grid-item:first-child {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .grid-floats {
+    position: relative;
+    left: 50px;
+  }
+  .grid-floats .grid-item {
+    width: 26.6%;
+  }
+  .grid-floats .grid-item:first-child,
+  .grid-item:nth-child(2) {
+    width: 41.2%;
+  }
+  .grid-flex .grid-item {
+    width: 26.6%;
+  }
+  .grid-flex .grid-item:first-child,
+  .grid-item:nth-child(2) {
+    width: 41.2%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grid-floats {
+    position: relative;
+    left: 90px;
+  }
+  .grid-floats .grid-item {
+    width: calc(100% / 5);
+  }
+  .grid-floats .grid-item:first-child {
+    width: 41.2%;
+  }
+  .grid-flex .grid-item {
+    width: calc(100% / 5);
+  }
+  .grid-flex .grid-item:first-child {
+    width: 41.2%;
+  }
+}
